@@ -1,0 +1,44 @@
+.block button {
+    padding: 10px;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #c4c4c4;
+}
+
+.block button {
+    margin: 0 20px;
+}
+
+.modal-body__search {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.block-icons {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    gap: 5px;
+}
+
+.block-icons__item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid #C4C4C4;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.block-icons__icon {
+    display: block;
+    width: 83px;
+    height: auto;
+    margin: 0 auto;
+    padding: 5px;   
+
+    border-radius: 10px;
+}
+
+.block-icons span {
+    word-wrap: break-word;
+}
